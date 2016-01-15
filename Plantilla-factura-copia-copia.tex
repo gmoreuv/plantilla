@@ -1,0 +1,120 @@
+\documentclass[a4paper] {letter}
+
+\usepackage[left=0.5cm,top=1cm,right=0.5cm,bottom=1cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage[latin9]{inputenc}
+\usepackage{longtable,array}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{comment}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\setlength\extrarowheight{3pt}
+\begin{document}
+\thispagestyle{empty}
+
+\begin{longtable}{|c|c|c|l|c|c|c|}
+\hline
+%\centering\includegraphics[width=6cm, height=3cm]{aqui_tu_logo}
+\multicolumn{4}{|l|}{} & \multicolumn{3}{|l|}{\multirow{9}{*}{\centering\includegraphics[width=6cm, height=3cm]{aqui_tu_logo}}} \\
+\multicolumn{4}{|c|}{\Huge Nombre de tu empresa} & \multicolumn{3}{|l|}{}  \\
+\multicolumn{4}{|c|}{} & \multicolumn{3}{|l|}{}  \\
+\multicolumn{4}{|l|}{Direccion Calle de tu empresa}  & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{Poblacion Granada} & \multicolumn{3}{|c|}{}  \\
+\multicolumn{4}{|l|}{Provincia Granada} & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{Cod.Postal 18001} & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{CIF: B-XXXXXXXX} & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{} & \multicolumn{3}{|c|}{} \\
+\hline 
+\hline
+\hline
+\hline
+\hline
+\multicolumn{3}{|c|}{
+\begin{tabular}{l}
+FACTURA: xxxxxxxxxx\\
+FECHA..: dd/mm/aaaa\\
+NIF.CLIENTE: YY.YYY.YYY -A
+\end{tabular}}
+&
+\multicolumn{4}{c|}{
+\begin{tabular}{l}
+Cliente: Fulanito de los Palotes \\
+Dirección Cliente: Calle de la chuchería nº 99 \\
+C.P.: 18001 \\
+Población: Granada  \\
+Provincia: Granada
+\end{tabular}}
+\\
+\hline 
+
+\hline 
+\endhead
+
+% PIE FINAL ==========================================
+\hline \hline
+\multicolumn{3}{|c|}{
+\begin{tabular}{l}
+\\
+\normalsize 25.000 \\
+\\
+\\
+\normalsize VTO. FACTURA: 25/10/20135
+\end{tabular}}
+&
+\multicolumn{3}{r|}{
+\begin{tabular}{r}
+\normalsize BRUTO FACTURA: \\
+\normalsize IMPORTE SEGURO: \\
+\normalsize BASE IMPONIBLE:\\
+\normalsize 21 \% IVA:  \\
+\normalsize TOTAL FACTURA: 
+\end{tabular}}
+&
+\multicolumn{1}{r|}{
+\begin{tabular}{r}
+\normalsize 12345.67 \\
+\normalsize 123.56 \\
+\normalsize 12345.67\\
+\normalsize 23456.54 \\
+\normalsize 23456.78 
+\end{tabular}}
+\\
+\hline 
+\endlastfoot
+
+% PIE PAGINA==========================================
+\multicolumn{7}{|r|}{\normalsize SUMA y SIGUE} \\
+\endfoot
+FECHA & Cód. Cliente & ARTÍCULO & DESCRIPCIÓN & CANTIDAD & PRECIO & IMPORTE \\
+\hline
+14.10.13 & 015.999 & 10001  & Prestación de Servicios Profesionales & 01 & 551.19 \euro & 551.19 \euro \\
+14.10.13 & 015.999 & 10002  & Productividad por gestión de cobros & 16 & 1.23 \euro & 23.23 \euro \\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+\end{longtable}
+%\vfill
+\hrulefill
+\hrulefill
+\hrulefill
+
+
+\begin{tabular}{l  r}
+Banco: Banco Mare Nostrum & ESxxxxxxxxx\\
+
+Banco: Banco Santander Central Hispano & ES6xxxxxxxxx\\
+
+Banco: Caja Rural de Granada  & ES8xxxxxxxxxxxxx\\
+
+\end{tabular}
+
+
+
+
+\end{document}
